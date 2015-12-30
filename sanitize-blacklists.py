@@ -1,6 +1,10 @@
 #!/usr/bin/python
 #
-#	remove subdomains and duplicates from Squid blacklist files 
+#	This script removes subdomains and duplicates from Squid blacklist files.
+#
+#	Project runs @ https://github.com/ZsBT/squid-sanitize-blacklist
+#	Author rights is protected by WTFPL - http://www.wtfpl.net/about/
+#	You should have received a copy of LICENSE file.
 #
 
 
@@ -9,13 +13,13 @@
 #
 
 # where to operate
-workDir = "/etc/unison-sync"
+workDir = "./blacklists"
 
 # this file contains the list of blaclist domain files
-blackListFileList = "sanitize.files"
+blackListFileList = "sanitize-these.files"
 
 # where to write sanitized domain list
-outputFile = "Sanitized.domains"
+outputFile = "sanitized.domains"
 
 
 
